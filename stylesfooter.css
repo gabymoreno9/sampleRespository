@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding : 0;
+  max-width: 100%;
+}
+
+footer {
+padding: 40px 0;
+width: 100vw;
+height: auto;
+background-color:#666699;
+}
+
+.social-icons{
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+
+.social-icons i{
+color: #fff;
+transition: all 0.3s ease 0s;
+font-size: 2rem;
+}
+
+.social-icons i:hover{
+color: #ff0066;
+}
+
+footer h6{
+display: flex;
+color: #fff;
+justify-content: center;
+padding-top: 1rem;
+}
